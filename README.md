@@ -28,3 +28,6 @@
 
 <h3>Integrate in Swift:</h3>
 <p>The Swift iOS app dynamically loads the compiled Go library using <code>dlopen</code> and calls the exposed Fibonacci function.</p>
+
+<h2>More Detailed Implementation</h2>
+<p>For a more in-depth look at the implementation details, including code examples and explanations, click on this link: <a href="https://secretive-fascinator-c6c.notion.site/GO-Wrapper-in-Swift-126d7fcea35280e3aa7eff0076d13135?pvs=4">Detailed Implementation</a>.</p>
