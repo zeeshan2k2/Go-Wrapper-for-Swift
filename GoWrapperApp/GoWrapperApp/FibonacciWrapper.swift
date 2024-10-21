@@ -10,7 +10,7 @@ import Foundation
 
 func computeFibonacci(upTo n: Int) -> [Int] {
     // Load the shared library
-    let handle = dlopen("/Users/zeeshanwaheed/Desktop/Go Wrapper for Swift/libfibonacci.so", RTLD_NOW) // Update this to the correct path
+    let handle = dlopen("/Users/zeeshanwaheed/Desktop/Swift/Go Wrapper for Swift/libfibonacci.so", RTLD_NOW) // Update this to the correct path
     
     guard handle != nil else {
         print("Failed to load library")
