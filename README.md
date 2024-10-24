@@ -2,6 +2,8 @@
 
 <p>This repository demonstrates how to integrate Go code into an iOS project using Swift. The primary focus is showcasing the use of Go to compute the Fibonacci sequence and expose it to Swift through a shared library.</p>
 
+<p>For a more in-depth look at the implementation details, including code examples and explanations, click on this link: <a href="https://secretive-fascinator-c6c.notion.site/GO-Wrapper-in-Swift-126d7fcea35280e3aa7eff0076d13135?pvs=4">Detailed Implementation</a>.</p>
+
 <h2>Concept Overview</h2>
 <p>This project serves as an example of cross-language interaction between Go and Swift using cgo. The Go code calculates the Fibonacci sequence and is compiled into a shared C-compatible library (.so) that can be imported and utilized within a Swift iOS application.</p>
 
